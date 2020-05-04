@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.content{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/***************/
+
+header{
+    padding: 20px 0;
+}
+
+header .content{
+    text-align: center;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: rgb(120,120,120);
+}
+
+header ul li img{
+    position: relative;
+    top: 25px;
+    margin: 0 20px;
+}
+
+section.bgprincipal{
+    padding: 205px 0;
+    background-image: url('../images/itamambucabg.jpg');
+    background-position: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/****/
+
+section.body{
+    background-color:#F0F1E9;
+}
+
+div.containerbody{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/*** BODYLEFT*/
+
+div.bodyleft{
+    float: left;
+    width: 75%;
+    padding: 20px 0;
+    border: 5px solid #F0F1E9;
+}
+
+div.bodyleft h2{
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    color: rgb(40,40,40);
+    margin-bottom: 10px;
+}
+
+div.bodyleft p{
+    color: rgb(100,100,100);
+    font-size: 15px;
+    padding: 12px 0;
+}
+
+div.galeria{
+    padding: 20px 0;
+}
+
+div.galeria-single{
+    display: block;
+}
+
+div.galeria-img{
+    display: inline-block;
+    width: 340px;
+    height: 151px;
+    background-image: url('../images/itamambucagaleria.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 14px;
+    border: 6px solid #F0F1E9;
+    position: relative;
+}
+
+/**** SIDEBAR*/
+
+aside.sidebar{
+    float: right;
+    width: 25%;
+    padding: 20px 0;
+    border: 5px solid #F0F1E9;
+}
+
+.sidebar .sidebar-menu{
+    background-color: white;
+}
+
+.sidebar .sidebar-menu ul{
+    list-style-type: none;
+    padding: 20px 0;
+}
+
+.sidebar .sidebar-menu ul li{
+    display: block;
+    padding: 7px 0;
+    cursor: pointer;
+}
+
+.sidebar .sidebar-menu ul li:hover{
+    background-color: rgb(205, 206, 200);
+}
+
+.sidebar .sidebar-menu ul li:hover a{
+    color: black;
+}
+
+.sidebar .sidebar-menu ul li a{
+    text-decoration: none;
+    color: rgb(100,100,100);
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.sidebar .propaganda{
+    background-color: white;
+    margin: 20px 0;
+}
+
+.sidebar .content-propaganda{
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar .propaganda img{
+    width: 180px;
+}
+
+.sidebar .propaganda p{
+    text-align: left;
+    padding-top: 10px;
+    color: rgb(100,100,100);
+}
+
+/***/
+
+section.bottom{
+    padding: 20px 0 70px 0;
+    background-color: #F0F1E9;
+}
+
+section.bottom .box-footer{
+    float: left;
+    padding: 0 30px;
+}
+
+section.bottom .box-footer h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: rgb(40,40,40);
+}
+
+section.bottom .box-footer p{
+    font-size: 15px;
+    color: rgb(120,120,120);
+}
+
+/***/
+
+footer{
+    padding: 70px 0;
+    background-color: whitesmoke;
+    text-align: center;
+}
